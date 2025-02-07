@@ -1,0 +1,34 @@
+Step-by-Step Guide to Set Up & Run the BCI Project
+
+1. Download & Save Files:
+   - Create a folder named "BCI_Project_Final".
+   - Inside this folder, create the following subfolders:
+     a. data   (Place your EEG dataset file here, e.g., eeg_data.fif)
+     b. results (This folder will store the output model)
+   - Save the following files in "BCI_Project_Final":
+     - Research_Paper.pdf (or Research_Paper.docx) – containing the 100-page research paper
+     - bci_model.py – the Python source code
+     - Setup_Instructions.txt – these instructions
+
+2. Install Required Software & Libraries:
+   - Install Python 3.x from https://www.python.org/downloads/
+   - Open a terminal or command prompt and install required libraries by running:
+     pip install numpy pandas mne tensorflow scikit-learn matplotlib
+
+3. Run the Project Code:
+   - Navigate to the "BCI_Project_Final" folder in your terminal.
+   - Run the code with the command:
+     python bci_model.py
+   - The script will:
+      a. Load and preprocess EEG data.
+      b. Train a CNN model.
+      c. Evaluate the model and display results.
+      d. Save the trained model in the "results" folder.
+
+4. Review the Research Document:
+   - Open the Research_Paper.pdf (or .docx) to review the detailed project documentation.
+
+5. Troubleshooting:
+   - Verify that the EEG dataset file is correctly placed in the "data" folder.
+   - Ensure all required libraries are installed.
+   - Check the terminal output for any error messages.
